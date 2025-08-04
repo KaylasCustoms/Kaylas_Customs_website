@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayla's Customs - Tyre Repairs, Service & Diagnostics</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a0033; /* Very dark purple background */
+        }
+    </style>
+</head>
+<body class="text-gray-200">
+
+    <!-- Header Section -->
+    <header class="bg-purple-950 text-white shadow-lg py-4 px-6 rounded-b-lg">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-4xl font-bold text-fuchsia-300 mb-2 md:mb-0">Kayla's Customs</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="hover:text-fuchsia-300 transition duration-300 text-lg">Home</a></li>
+                    <li><a href="#services" class="hover:text-fuchsia-300 transition duration-300 text-lg">Services</a></li>
+                    <li><a href="#book" class="hover:text-fuchsia-300 transition duration-300 text-lg">Book Now</a></li>
+                    <li><a href="#about" class="hover:text-fuchsia-300 transition duration-300 text-lg">About Us</a></li>
+                    <li><a href="#contact" class="hover:text-fuchsia-300 transition duration-300 text-lg">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-gradient-to-r from-purple-900 to-black text-white py-20 md:py-32 flex items-center justify-center text-center rounded-lg m-4 shadow-xl">
+        <div class="container mx-auto px-6">
+            <h2 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
+                Your Vehicle, Our Expertise.
+            </h2>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
+                Reliable Tyre Repairs, Comprehensive Basic Service, and Advanced Vehicle Diagnostics right from our home workshop.
+            </p>
+            <a href="#services" class="bg-fuchsia-600 hover:bg-fuchsia-700 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg transition duration-300 transform hover:scale-105">
+                Explore Our Services
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 md:py-24 bg-gray-900 text-gray-200 m-4 rounded-lg shadow-xl">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold text-fuchsia-300 mb-12">Our Services</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Service Card 1: Tyre Repairs -->
+                <div class="bg-gray-800 p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-fuchsia-500 text-6xl mb-6">
+                        <!-- Tyre Icon (SVG) -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-16 h-16 mx-auto">
+                            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v6a.75.75 0 0 0 .75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-fuchsia-300 mb-4">Tyre Repairs & Fitting</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        From puncture repairs to new tyre fitting and balancing, we ensure your vehicle has safe and reliable grip on the road. We handle a wide range of tyre types and sizes.
+                    </p>
+                </div>
+
+                <!-- Service Card 2: Basic Service -->
+                <div class="bg-gray-800 p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-fuchsia-500 text-6xl mb-6">
+                        <!-- Wrench Icon (SVG) -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-16 h-16 mx-auto">
+                            <path fill-rule="evenodd" d="M12 1.5a.75.75 0 0 1 .75.75V3a.75.75 0 0 1-1.5 0V2.25A.75.75 0 0 1 12 1.5ZM12 4.5a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0V5.25A.75.75 0 0 1 12 4.5ZM12 7.5a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0V8.25A.75.75 0 0 1 12 7.5ZM12 10.5a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5a.75.75 0 0 1 .75-.75ZM12 13.5a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5a.75.75 0 0 1 .75-.75ZM12 16.5a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5a.75.75 0 0 1 .75-.75ZM12 19.5a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5a.75.75 0 0 1 .75-.75ZM12 22.5a.75.75 0 0 1 .75.75V24a.75.75 0 0 1-1.5 0v-.75a.75.75 0 0 1 .75-.75Z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-fuchsia-300 mb-4">Basic Vehicle Service</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Keep your vehicle running smoothly with our essential maintenance services, including oil changes, fluid checks, filter replacements, and general inspections.
+                    </p>
+                </div>
+
+                <!-- Service Card 3: Vehicle Diagnostics -->
+                <div class="bg-gray-800 p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-fuchsia-500 text-6xl mb-6">
+                        <!-- Car Diagnostics Icon (SVG) -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-16 h-16 mx-auto">
+                            <path d="M11.25 4.533A9.752 9.752 0 0 0 5.25 8.25V9a.75.75 0 0 0 0 1.5 2.25 2.25 0 0 1-.75 4.5 2.25 2.25 0 0 1-.75-4.5.75.75 0 0 0 0-1.5V8.25A9.752 9.752 0 0 0 2.25 4.533V2.25a.75.75 0 0 1 .75-.75h18a.75.75 0 0 1 .75.75v2.283ZM12 6a.75.75 0 0 0-1.5 0v6a.75.75 0 0 0 .75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z" />
+                            <path fill-rule="evenodd" d="M12 16.5a.75.75 0 0 0-1.5 0v3.75a.75.75 0 0 0 1.5 0V16.5ZM17.25 10.5a.75.75 0 0 0-1.5 0v3.75a.75.75 0 0 0 1.5 0v-3.75Z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-fuchsia-300 mb-4">Vehicle Diagnostics</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Using advanced diagnostic tools, we can accurately identify issues with your vehicle's engine, electronics, and other systems, saving you time and money.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking System Section -->
+    <section id="book" class="py-16 md:py-24 bg-purple-950 text-gray-200 m-4 rounded-lg shadow-xl">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold text-fuchsia-300 mb-12">Book Your Service</h2>
+            <p class="text-lg mb-8 max-w-2xl mx-auto">
+                Ready to get your vehicle serviced? Use the form below to request an appointment. We'll confirm your booking shortly!
+            </p>
+
+            <div class="max-w-lg mx-auto bg-gray-900 p-8 rounded-xl shadow-md">
+                <form action="#" method="POST" class="space-y-6">
+                    <div>
+                        <label for="serviceType" class="block text-left text-lg font-medium text-gray-200 mb-2">Service Needed</label>
+                        <select id="serviceType" name="serviceType" class="w-full p-3 rounded-md bg-gray-800 border border-gray-700 text-gray-200 focus:ring-fuchsia-400 focus:border-fuchsia-400" required>
+                            <option value="">Select a Service</option>
+                            <option value="tyreRepair">Tyre Repair & Fitting</option>
+                            <option value="basicService">Basic Vehicle Service</option>
+                            <option value="diagnostics">Vehicle Diagnostics</option>
+                            <option value="other">Other (Please specify in message)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="bookingDate" class="block text-left text-lg font-medium text-gray-200 mb-2">Preferred Date</label>
+                        <input type="date" id="bookingDate" name="bookingDate" class="w-full p-3 rounded-md bg-gray-800 border border-gray-700 text-gray-200 focus:ring-fuchsia-400 focus:border-fuchsia-400" required>
+                    </div>
+                    <div>
+                        <label for="bookingTime" class="block text-left text-lg font-medium text-gray-200 mb-2">Preferred Time</label>
+                        <input type="time" id="bookingTime" name="bookingTime" class="w-full p-3 rounded-md bg-gray-800 border border-gray-700 text-gray-200 focus:ring-fuchsia-400 focus:border-fuchsia-400" required>
+                    </div>
+                    <div>
+                        <label for="bookerName" class="block text-left text-lg font-medium text-gray-200 mb-2">Your Name</label>
+                        <input type="text" id="bookerName" name="bookerName" class="w-full p-3 rounded-md bg-gray-800 border border-gray-700 text-gray-200 focus:ring-fuchsia-400 focus:border-fuchsia-400" placeholder="Your Full Name" required>
+                    </div>
+                    <div>
+                        <label for="bookerEmail" class="block text-left text-lg font-medium text-gray-200 mb-2">Your Email</label>
+                        <input type="email" id="bookerEmail" name="bookerEmail" class="w-full p-3 rounded-md bg-gray-800 border border-gray-700 text-gray-200 focus:ring-fuchsia-400 focus:border-fuchsia-400" placeholder="your.email@example.com" required>
+                    </div>
+                    <div>
+                        <label for="bookerPhone" class="block text-left text-lg font-medium text-gray-200 mb-2">Phone Number (Optional)</label>
+                        <input type="tel" id="bookerPhone" name="bookerPhone" class="w-full p-3 rounded-md bg-gray-800 border border-gray-700 text-gray-200 focus:ring-fuchsia-400 focus:border-fuchsia-400" placeholder="+64 21 123 4567">
+                    </div>
+                    <div>
+                        <label for="vehicleDetails" class="block text-left text-lg font-medium text-gray-200 mb-2">Vehicle Make/Model/Year & Message</label>
+                        <textarea id="vehicleDetails" name="vehicleDetails" rows="4" class="w-full p-3 rounded-md bg-gray-800 border border-gray-700 text-gray-200 focus:ring-fuchsia-400 focus:border-fuchsia-400" placeholder="e.g., 2018 Honda Civic, needing a puncture repair on front left tyre."></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-fuchsia-600 hover:bg-fuchsia-700 text-white font-bold py-3 px-6 rounded-full text-lg shadow-lg transition duration-300 transform hover:scale-105">
+                        Request Appointment
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 md:py-24 bg-gray-900 text-gray-200 m-4 rounded-lg shadow-xl">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold text-fuchsia-300 mb-12">About Kayla's Customs</h2>
+            <div class="max-w-4xl mx-auto text-lg leading-relaxed text-gray-300">
+                <p class="mb-6">
+                    Welcome to Kayla's Customs, your trusted local workshop for all your vehicle's essential needs. Founded by Kayla, our mission is to provide high-quality, reliable, and affordable automotive services with a personal touch. Being a home-based workshop allows us to offer competitive pricing while maintaining exceptional standards of workmanship.
+                </p>
+                <p class="mb-6">
+                    We specialize in **tyre repairs and fitting**, ensuring your safety on the road with proper tyre maintenance. Our **basic vehicle service** keeps your car running smoothly, preventing minor issues from becoming major problems. And with our **advanced vehicle diagnostics**, we can quickly pinpoint and address complex issues, getting you back on the road faster.
+                </p>
+                <p>
+                    At Kayla's Customs, we believe in honest work and clear communication. We're passionate about cars and dedicated to serving our community with integrity.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-24 bg-purple-950 text-gray-200 m-4 rounded-lg shadow-xl">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold text-fuchsia-300 mb-12">Get in Touch</h2>
+            <p class="text-lg mb-8 max-w-2xl mx-auto">
+                Have questions or want to book a service? Reach out to us!
+            </p>
+
+            <div class="max-w-lg mx-auto bg-gray-900 p-8 rounded-xl shadow-md">
+                <form action="#" method="POST" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-left text-lg font-medium text-gray-200 mb-2">Your Name</label>
+                        <input type="text" id="name" name="name" class="w-full p-3 rounded-md bg-gray-800 border border-gray-700 text-gray-200 focus:ring-fuchsia-400 focus:border-fuchsia-400" placeholder="John Doe" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-left text-lg font-medium text-gray-200 mb-2">Your Email</label>
+                        <input type="email" id="email" name="email" class="w-full p-3 rounded-md bg-gray-800 border border-gray-700 text-gray-200 focus:ring-fuchsia-400 focus:border-fuchsia-400" placeholder="john.doe@example.com" required>
+                    </div>
+                    <div>
+                        <label for="phone" class="block text-left text-lg font-medium text-gray-200 mb-2">Phone Number (Optional)</label>
+                        <input type="tel" id="phone" name="phone" class="w-full p-3 rounded-md bg-gray-800 border border-gray-700 text-gray-200 focus:ring-fuchsia-400 focus:border-fuchsia-400" placeholder="+64 21 123 4567">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-left text-lg font-medium text-gray-200 mb-2">Message</label>
+                        <textarea id="message" name="message" rows="5" class="w-full p-3 rounded-md bg-gray-800 border border-gray-700 text-gray-200 focus:ring-fuchsia-400 focus:border-fuchsia-400" placeholder="Tell us about your vehicle needs or collection inquiry..." required></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-fuchsia-600 hover:bg-fuchsia-700 text-white font-bold py-3 px-6 rounded-full text-lg shadow-lg transition duration-300 transform hover:scale-105">
+                        Send Message
+                    </button>
+                </form>
+                <p class="mt-8 text-center text-gray-400">
+                    Alternatively, you can call us at: **0226407811** or email us at: **kaylascustoms@hotmail.com**
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-purple-950 text-white py-8 px-6 text-center rounded-t-lg">
+        <div class="container mx-auto">
+            <p>&copy; 2025 Kayla's Customs. All rights reserved.</p>
+            <p class="text-sm mt-2">
+                27 Beihlers Road, Weymouth, Auckland | 0226407811 | kaylascustoms@hotmail.com
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
